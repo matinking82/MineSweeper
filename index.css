@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.top-menu {
+    box-shadow: 0px 30px 100px black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+}
+
+#btnStartGame {
+    margin: 30px auto;
+}
+
+#game {
+    background: black;
+    margin: 30px auto;
+    text-align:center;
+    position:relative;
+}
+
+.gameButton {
+    outline: none !important;
+    cursor: default;
+    padding: 0;
+    margin: 1px;
+    border-width:1px;
+    /*
+    font-size: 35px;
+    */
+    overflow: hidden;
+    position:absolute;
+    text-align:center;
+    vertical-align:central;
+}
+
+.gameButtonClicked {
+    background: aliceblue;
+    border-style: solid;
+    border-color: #808080;
+}
+
+.bomb-image {
+    width: 99%;
+    height: 99%;
+}
+
+.color1 {
+    color: blue;
+}
+
+.color2 {
+    color: forestgreen;
+}
+
+.color3 {
+    color: darkred;
+}
+
+.color4 {
+    color: skyblue;
+}
+
+.color5 {
+    color: orangered;
+}
+
+.color6 {
+    color: purple;
+}

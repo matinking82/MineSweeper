@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>MineSweeper</title>
+</head>
+
+<body>
+
+    <div class="top-menu">
+        <span>Game Len:</span>
+        <select id="game-len">
+            <option value="8">8</option>
+            <option value="16" selected>16</option>
+            <option value="20">20</option>
+            <option value="26">26</option>
+            <option value="32">32</option>
+            <option value="36">36</option>
+        </select>
+        <span>Bombs :</span>
+        <input id="bombs" class="controll" type="number" value="6">
+        <br />
+        <button class="btn btn-warning" id="btnStartGame">
+            Start Game
+        </button>
+        <audio id="bomb-sfx" src="SFX/bomb.wav"></audio>
+        <audio id="empty-sfx" src="SFX/empty.wav"></audio>
+        <audio id="number-sfx" src="SFX/number.wav"></audio>
+    </div>
+    <div id="game">
+
+    </div>
+
+    <script src="jquery/dist/jquery.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
